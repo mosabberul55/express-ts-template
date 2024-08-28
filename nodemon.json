@@ -1,0 +1,8 @@
+{
+  "watch": ["src/**"],
+  "ext": "ts,json",
+  "ignore": ["dist/*", "node_modules/*", ".git/*"],
+  "exec": "ts-node -r dotenv/config src/server.ts",
+  "inspect": true,
+  "verbose": true
+}
